@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(../Homework4/fonts/gilroy-medium.woff2);
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(../Homework4/fonts/gilroy-bold.woff2);
+}
+
+.header {
+    margin-top: 40px;
+    display: flex;
+    width: 1200px;
+    gap: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.growbe {
+    color: #000;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+.growbe span {
+    color: #F25822;
+}
+
+.links {
+    color: #000;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5px;
+    margin-left: 500px;
+    width: 533px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links span {
+    color: #F25822;
+}
+
+.intro {
+    margin-top: 89px;
+    display: flex;
+    gap: 40px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.upper-title {
+    color: #000;
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title {
+    color: #888;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 17px;
+}
+
+.button-1 {
+    color: #FFF;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 50px;
+    border-color: #F25822;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    margin-top: 37px;
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border: none;
+}
+
+.button-2 {
+    color: #AAA;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 72px;
+    border: none;
+    background: white;
+}
+
+.brand {
+    margin-top: 260px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
